@@ -1,0 +1,30 @@
+[Discord] https://discord.com/users/l0ds._
+[Reddit] https://www.reddit.com/user/l0ds._/
+
+[DORK] site:pastebin.com "l0ds._"
+/httpservice/retry/enablejs?sei=mLO8afOcAuvY1sQP7_uiiAo
+https://support.google.com/websearch
+
+[DORK] "l0ds._" filetype:pdf
+/httpservice/retry/enablejs?sei=mLO8acCmA4-01sQP0JjJmQU
+https://support.google.com/websearch
+
+[DORK] "l0ds._" intitle:index.of
+/httpservice/retry/enablejs?sei=mLO8afW_Ao-65OUPoPaR-As
+https://support.google.com/websearch
+
+[DORK] site:twitter.com "l0ds._"
+/httpservice/retry/enablejs?sei=mLO8afCEA_jM1sQPnq6ksQ8
+https://support.google.com/websearch
+
+[DORK] site:github.com "l0ds._"
+/httpservice/retry/enablejs?sei=mLO8ab6NA-Da5OUPq-u7gQE
+https://support.google.com/websearch
+
+[DORK] site:linkedin.com "l0ds._"
+/httpservice/retry/enablejs?sei=mLO8aYWUA4ie5OUP3Mi6cA
+https://support.google.com/websearch
+
+[DORK] "l0ds._" filetype:xls
+/httpservice/retry/enablejs?sei=mLO8aYrCAvbI5OUPhpyB8A4
+https://support.google.com/websearch
