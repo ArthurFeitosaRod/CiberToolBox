@@ -1,0 +1,11 @@
+Exemplos de ferramentas populares feitas em Python:
+
+Scapy: análise e criação de pacotes de rede.
+
+Impacket: manipulação de protocolos de rede.
+
+Recon-ng: framework para coleta de informações.
+
+sqlmap (parte em Python): automatiza testes de SQL Injection.
+
+Fonte: https://themastercoder.blogspot.com/2025/12/criacao-de-ferramentas-de-seguranca-e.html
