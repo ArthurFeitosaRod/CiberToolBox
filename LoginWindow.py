@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import messagebox
 import sys
 from Database import Funcs
-
+from Main import MainWindows
 class Janela_Login(Tk):
     def __init__(self):
         super().__init__()
@@ -54,6 +54,9 @@ class Janela_Login(Tk):
         if sucesso:
             # Lógica para abrir a próxima tela ou mostrar mensagem de sucesso
             messagebox.showinfo("Login", "Entrada autorizada!")
+            print('sucesso!!')
+            #CONECTAR COM MAIN.py
+            MainWindows()
             self.fechar_tudo()
         else:
             # Lógica para erro
@@ -96,9 +99,9 @@ class Janela_Cadastro(Tk):
         campo_nome = Entry(self, width="40", relief="solid")
         campo_nome.place(x=5, y=130)
         # Email
-        email = Label(self, anchor=NE, text="Email ", font="16")
+        email = Label(self, anchor=NE, text="Email/Usuario", font="16")
         email.place(x=5, y=155)
-        Label(self, text='*', font="16", fg="#ff0000").place(x=55, y=155)
+        Label(self, text='*', font="16", fg="#ff0000").place(x=105, y=155)
         campo_email = Entry(self, width="40", relief="solid")
         campo_email.place(x=5, y=185)
         # Senha
@@ -108,7 +111,7 @@ class Janela_Cadastro(Tk):
         campo_senha = Entry(self, width="40", relief="solid")
         campo_senha.place(x=5, y=230)
         # Botão de cadastro
-        botao = Button(self, text="ENTRAR", bg="#5e5e5e", width="15", command=lambda: self.cadastro_db(campo_nome,campo_email,campo_senha))
+        botao = Button(self, text="CASTRAR", bg="#5e5e5e", width="15", command=lambda: self.cadastro_db(campo_nome,campo_email,campo_senha))
         # lambda é para passar argumentos dentro da função
         botao.place(x=5, y=250)
         # Botão para ir para a tela de login
@@ -117,6 +120,6 @@ class Janela_Cadastro(Tk):
     def Logar(self):
         Janela_Cadastro.destroy(self)
         Janela_Login().deiconify()
-if __name__ == "__main__":
-    win = Janela_Login()
-    win.mainloop()
+# if __name__ == "__main__":
+#     win = Janela_Login()
+#     win.mainloop()
