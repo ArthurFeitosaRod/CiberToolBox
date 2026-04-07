@@ -8,4 +8,8 @@ Recon-ng: framework para coleta de informações.
 
 sqlmap (parte em Python): automatiza testes de SQL Injection.
 
+nmap : varredura completa: fonte: https://github.com/mourafuseti/PENTEST/blob/main/pentest.py
+
+dorking: fonte: https://github.com/andrelccorrea/python-pentest/blob/FuturoDevJunior-v2.1/dorks.txt
+
 Fonte: https://themastercoder.blogspot.com/2025/12/criacao-de-ferramentas-de-seguranca-e.html
