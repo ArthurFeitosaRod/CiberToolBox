@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import messagebox
 import sys
 from Database import Funcs
-from Main import Inicializadora
+from main import Inicializadora
 class Janela_Login(Tk):
     def __init__(self):
         super().__init__()
@@ -35,6 +35,7 @@ class Janela_Login(Tk):
         Label(self, text='*', font="16", fg="#ff0000").place(x=55, y=160)
         senha_entry = Entry(self, width="40", relief="solid")
         senha_entry.place(x=5, y=190)
+        senha_entry.config(show="*")
         self.linha_divisoria()
         botao = Button(self, text="ENTRAR", bg="#6a6666", width="15", command=lambda: self.login_db(email_entry,senha_entry))
         botao.place(x=5, y=230)

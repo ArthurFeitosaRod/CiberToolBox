@@ -13,3 +13,5 @@ nmap : varredura completa: fonte: https://github.com/mourafuseti/PENTEST/blob/ma
 dorking: fonte: https://github.com/andrelccorrea/python-pentest/blob/FuturoDevJunior-v2.1/dorks.txt
 
 Fonte: https://themastercoder.blogspot.com/2025/12/criacao-de-ferramentas-de-seguranca-e.html
+
+Pegar assinatura com permissão de todos
