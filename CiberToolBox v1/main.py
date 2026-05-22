@@ -48,7 +48,7 @@ class MainWindows(ctk.CTk):
 
     def abrir_terminal_ferramenta_a(self):
         # Lista branca de comandos para a Ferramenta A
-        permitidos = ["sherlock", "ls", "cd", "cls", "clear", "dir","python3"]
+        permitidos = ["sherlock", "ls", "cd", "cls", "clear", "dir","python3","help","man"]
         self.abrir_powershell(permitidos, "Sherlock Terminal")
     def abrir_terminal_ferramenta_b(self):
         # Lista branca de comandos para a Ferramenta A

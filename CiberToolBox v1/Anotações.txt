@@ -1,0 +1,5 @@
+Levar primeiro passo, planejamento.
+Refazer o sistema de login usando CTK.
+Deixar mais intuitivo, tirar powershell do Sherlock, adicionar menu com execução de comandos padrão(bind setada)
+precisa ser feito um diagrama de fluxo de dados.(Permite projetos precisos e eficiente)
+Sistema de gerenciamento de bibliotecas, preciso ver como deixar mais organizado e deixar mais entendível
