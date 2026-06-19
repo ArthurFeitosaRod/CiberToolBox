@@ -29,6 +29,10 @@ class Auth_validacao:
             print("\nConcluído!")
             print("="*20)
             from src.Views.main_window import ClientView
+            janela_login = user.winfo_toplevel()
+            janela_login.withdraw()
             main_app = ClientView()
+            main_app.mainloop()
+            
         else:
             print("Login Inválido! Acesso negado.")

@@ -9,7 +9,8 @@ class LoginClientView(ctk.CTk):
     def  __init__(self):
         super().__init__()        
         self.title("CibertoolBox/Login")
-        self.geometry("600x350")
+        self.eval('tk::PlaceWindow . center')
+        self.geometry("650x400")
         self.resizable(False,False)
         self.configure(fg_color=DARK_BG)
         self.login_inicial()
